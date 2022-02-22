@@ -1,0 +1,169 @@
+
+    h1 {
+        background-color: white;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 60px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        
+    }
+    nav ul li a{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    
+        text-align: center;
+        color: black;
+        text-decoration: unset;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 25px;  
+    
+    }
+    nav ul {
+        word-spacing: 30px;
+        text-align: center;
+        border-radius: 5px;
+        border-style:solid;
+        border-color: white;
+    }
+    nav ul li {
+        display: inline;
+    }
+/* Products  */
+
+
+/* Bedroom */
+.overlay-box-bedroom {
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    width: 768px;
+    height: 575px;
+    display:table-row;
+    
+  }
+  
+  .overlay-box-bedroom:hover .desc-bedroom,
+  .overlay-box-bedroom:focus .desc-bedroom {
+    opacity: 1;
+    width: 719px;
+    height: 525px;
+  }
+  
+  /* opacity 0.01 for accessibility */
+  /* adjust the styles like height,padding to match your design*/
+  .overlay-box-bedroom .desc-bedroom {
+    opacity: 0.01;
+    min-height: 355px;
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Cormorant Garamond', serif;
+    padding: 30px 25px 20px;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 719px;
+    height: 525px
+    
+  }
+  /* Bathroom */
+  .overlay-box-bathroom {
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 439px;
+    display: row;
+  }
+  
+  .overlay-box-bathroom:hover .desc-bathroom,
+  .overlay-box-bathroom:focus .desc-bathroom {
+    opacity: 1;
+    width: 600px;
+    height: 389px;
+  }
+  
+  /* opacity 0.01 for accessibility */
+  /* adjust the styles like height,padding to match your design*/
+  .overlay-box-bathroom .desc-bathroom {
+      display:inline-table;
+    opacity: 0.01;
+    min-height: 355px;
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Cormorant Garamond', serif;
+    padding: 30px 25px 20px;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 600px;
+    height: 389px
+  }
+  /* Living */
+  .overlay-box-living {
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay-box-living:hover .desc-living,
+  .overlay-box-living:focus .desc-living {
+    opacity: 1;
+    width: 750px;
+    height: 600px;
+  }
+  
+  /* opacity 0.01 for accessibility */
+  /* adjust the styles like height,padding to match your design*/
+  .overlay-box-living .desc-living {
+      position: relative;
+    opacity: 0.01;
+    min-height: 355px;
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Cormorant Garamond', serif;
+    padding: 30px 25px 20px;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 800px;
+    height: 800px
+  }
+  /* Kitchen*/
+  .overlay-box-kitchen {
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay-box-kitchen:hover .desc-kitchen,
+  .overlay-box-kitchen:focus .desc-kitchen {
+    opacity: 1;
+    width: 800px;
+    height: 800px;
+  }
+  
+  /* opacity 0.01 for accessibility */
+  /* adjust the styles like height,padding to match your design*/
+  .overlay-box-bedroom .desc-kitchen {
+      position: relative;
+    opacity: 0.01;
+    min-height: 355px;
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Cormorant Garamond', serif;
+    padding: 30px 25px 20px;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 800px;
+    height: 800px
+  }
+
+     /* GALLERY */
+  
+
+  
+   
+    
+    

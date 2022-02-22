@@ -1,0 +1,36 @@
+
+h1 {
+    background-color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    text-align: center;
+
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+a{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    color: black;
+    text-decoration: unset;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;  
+    
+}
+ul {
+    word-spacing: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: white;
+}
+li {
+    display: inline;
+}

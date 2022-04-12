@@ -1,4 +1,7 @@
 
+    /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+     
     h1 {
         background-color: white;
         font-family: 'Cormorant Garamond', serif;
@@ -43,8 +46,9 @@
 
 }
 .row-box {
-  width: 400px;
+  width: 25%;
   height: 400px;
+  margin: 5px;
   background-color: #E0E0E0;
 }
 
@@ -52,3 +56,4 @@
   opacity: .8;
 }
 
+}
